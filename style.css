@@ -97,10 +97,10 @@ body {
       var(--Soft-violet-transparent)
     ),
     url(./images/image-header-desktop.jpg);
-  background-blend-mode: hard-light;
+  background-blend-mode: color;
   background-position: center;
   background-size: cover;
-  filter: brightness(0.7);
+  filter: brightness(0.5);
 }
 
 @media screen and (max-width: 986px) {
