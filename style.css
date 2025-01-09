@@ -100,6 +100,7 @@ body {
   background-blend-mode: hard-light;
   background-position: center;
   background-size: cover;
+  filter: brightness(0.7);
 }
 
 @media screen and (max-width: 986px) {
@@ -127,6 +128,11 @@ body {
   .stats-preview-card__image {
     height: 240px;
     width: 100%;
+    background-image: linear-gradient(
+        var(--Soft-violet-transparent),
+        var(--Soft-violet-transparent)
+      ),
+      url(./images/image-header-mobile.jpg);
   }
 
   .stats-preview-card__stats {
